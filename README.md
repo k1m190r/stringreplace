@@ -10,11 +10,13 @@ a small utility to find and replace strings in binary files
 
 `stringreplace -find=ABCD -replace=XYZX -prefix=X *.bin`
 
+* this will open all bin files in current directory find string "ABCD" and replace it with "XYZX" add prefix "X" to file and save it as new X*.bin file.
+
 or specifically for the QNAP community seaking to read q264 avi files, defaults are for you:
 
 `stringreplace *.avi`
 
-* this will open all bin files in current directory find string "ABCD" and replace it with "XYZX" add prefix "X" to file and save it as new X*.bin file.
+* this will open all the *.avi files in current directory find "q264" and replace it with "H264" add prefix "M" to the name and save new file M*.avi.
 
 
 ###Installation:
