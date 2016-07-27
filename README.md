@@ -15,5 +15,5 @@ stringreplace -find=ABCD -replace=XYZX -prefix=X *.bin
 
 ###Installation:
 Check under [releases](https://github.com/biosckon/stringreplace/releases)
-download and move to some directory on your path "e.g. c:\Windows\"
+download and move to some directory on your path "e.g. c:\Windows\" or "/usr/local/bin" (linux, MacOSX)
 
