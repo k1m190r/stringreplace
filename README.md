@@ -8,7 +8,10 @@ a small utility to find and replace strings in binary files
 
 ###Example:
 
-stringreplace -find=ABCD -replace=XYZX -prefix=X *.bin
+`stringreplace -find=ABCD -replace=XYZX -prefix=X *.bin`
+
+or specifically for the QNAP community seaking to read q264 avi files, defaults are for you:
+`stringreplace *.avi`
 
 * this will open all bin files in current directory find string "ABCD" and replace it with "XYZX" add prefix "X" to file and save it as new X*.bin file.
 
@@ -17,3 +20,6 @@ stringreplace -find=ABCD -replace=XYZX -prefix=X *.bin
 Check under [releases](https://github.com/biosckon/stringreplace/releases)
 download and move to some directory on your path "e.g. c:\Windows\" or "/usr/local/bin" (linux, MacOSX)
 
+On linux/MacOSX you would have to change the file mode to executable.
+So:
+`chmod 544 stringreplace`
