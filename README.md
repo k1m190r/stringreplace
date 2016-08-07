@@ -1,5 +1,7 @@
 a small utility to find and replace strings in binary files
 
+primary use is for QNAP https://forum.qnap.com/viewtopic.php?f=187&t=90200&start=15#p561103
+
 ###Usage of stringreplace.exe:
 * -find string: a string to find (default "q264")
 * -replace string: a string to replace found string, must be same length > 0 (default "H264")
